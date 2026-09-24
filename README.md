@@ -123,7 +123,7 @@ El informe documenta por qué **no es posible** realizar el taller:
 |---|---|---|
 | `ooklacrawling` | https://catalog.caida.org/dataset/ooklacrawling | No es topología |
 | `country-level-ip-reputation` | https://www.caida.org/archive/policy/country-level-ip-reputation/ | Estudio de reputación, página histórica |
-| `ark_itdk` ✅ | https://catalog.caida.org/dataset/ark_itdk | Único dataset topológico viable |
+| `ark_itdk`  | https://catalog.caida.org/dataset/ark_itdk | Único dataset topológico viable |
 
 ### 2.3 Conclusión principal
 
@@ -155,36 +155,25 @@ Comparar su estabilidad entre distintos snapshots de `ark_itdk`. Ese ejercicio s
 
 ---
 
-## 3. Cómo reproducir todo
+## 3. Ejecutar
 
-### 3.1 Clonar / descargar
 
-```bash
-git clone <url-del-repo>
-cd <repo>
-```
-
-### 3.2 Instalar dependencias
+### 3.1 Instalar dependencias
 
 ```bash
 pip install pandas matplotlib
 ```
 
-### 3.3 Colocar el dataset
+### 3.2 Colocar el dataset
 
-Asegúrate de que `informe.json` esté en la raíz del proyecto.
+Cambiale el nombre a `informe.json` y ponlo en la raiz del proyecto.
 
-### 3.4 Ejecutar el script
+### 3.3 Ejecutar el script
 
 ```bash
 python timeline.py
 ```
 
-### 3.5 Leer el informe
-
-Abre `informe_delta.md` en cualquier visor Markdown (VS Code, GitHub, Obsidian, etc.).
-
----
 
 ## 4. Referencias
 
