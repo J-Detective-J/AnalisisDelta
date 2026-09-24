@@ -186,28 +186,7 @@ Abre `informe_delta.md` en cualquier visor Markdown (VS Code, GitHub, Obsidian, 
 
 ---
 
-## 4. Notas técnicas
-
-### 4.1 ¿Por qué JSON Lines y no un JSON array?
-
-- **JSON Lines** permite leer línea por línea sin cargar todo en memoria.
-- Es el formato estándar de salida de herramientas como `zdns` (ZMap DNS).
-- Facilita procesar archivos de varios GB con RAM limitada.
-
-### 4.2 ¿Por qué `Counter` y no `pandas` durante la lectura?
-
-- `Counter` es **mucho más rápido** y ligero para incrementar contadores.
-- `pandas` se usa **solo al final**, una vez agregados los datos, para aprovechar su manejo de series temporales.
-
-### 4.3 ¿Por qué `mdates.AutoDateLocator`?
-
-- El rango temporal puede ir de segundos a meses.
-- `AutoDateLocator` ajusta automáticamente la densidad de ticks del eje X.
-- `ConciseDateFormatter` produce etiquetas cortas y legibles.
-
----
-
-## 5. Referencias
+## 4. Referencias
 
 - CAIDA. *Ookla Speedtest Server Metadata.* https://catalog.caida.org/dataset/ooklacrawling
 - CAIDA. *Correlation between country governance regimes and the reputation of their Internet (IP) address allocations.* https://www.caida.org/archive/policy/country-level-ip-reputation/
