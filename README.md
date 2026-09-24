@@ -1,7 +1,7 @@
-Integrantes
-Juan Pablo Beltrán Santana
-Santiago Alejandro Céspedes Daza
-Jhonatan David Valdés González
+# Integrantes
+- Juan Pablo Beltrán Santana
+- Santiago Alejandro Céspedes Daza
+- Jhonatan David Valdés González
 
 # Timeline DNS
 
